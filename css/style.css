@@ -1,0 +1,703 @@
+@font-face {
+    font-family: 'zekton_free';
+    src: url('fonts/zekton_free.eot');
+    src: url('fonts/zekton_free.eot?#iefix') format('embedded-opentype'),
+         url('fonts/zekton_free.woff') format('woff'),
+         url('fonts/zekton_free.ttf') format('truetype'),
+         url('fonts/zekton_free.svg#zekton_free') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: small;
+	font-family: zekton_free;
+
+}
+
+* img {
+	border: none;
+}
+
+body {
+	background-color: #F9F8F6;
+	overflow-x: hidden;
+}
+
+/*--------------------- CABECALHO --------------------*/
+.cabecalho {
+	width: 100%;
+	height: 125px;
+	border-bottom: 7px solid #653332;
+	box-sizing: border-box
+}
+
+header {
+	width: 1000px;
+	height: 118px;
+	margin: 0px auto 0px auto;
+	box-sizing: border-box;
+}
+
+header p {
+	float: right;
+	margin: 40px 0px 0px 0px;
+	font-size: 18px;
+	color: #E0B236;
+}
+
+header span img {
+	margin: 5px 0px 0px 0px;
+}
+
+/*-------------------------MENU-------------------------*/
+
+nav {
+	width: 1000px;
+	height: 47px;
+	box-sizing: border-box;
+	border: 1px solid #B3B3B3;
+	background-color: #F1F0EE;
+	border-radius: 8px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	top: -25px;
+	z-index: 99;
+}
+
+nav ul {
+	list-style: none;
+	width: 910px;
+	margin: 8px auto 0px auto;
+	z-index: 999;
+	
+	
+}
+
+
+nav ul li {
+	list-style: none;
+	display: inline;
+	padding: 8px 50px 8px 50px;
+	border-right: 1px solid #DECDAE;
+	box-sizing: border-box;
+	color: #663333;
+	
+}
+
+nav ul li a {
+	color: #663333;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	color: #E0B236;
+}
+
+/*---------------------------- EMPRESA ---------------------------------*/
+
+section#empresa {
+	width: 1000px;
+	height: auto;
+	margin: 0px auto 80px auto;
+}
+
+
+section#empresa h1 {
+	width: 995px;
+	height: 48px;
+	margin: 0px auto 0px auto;
+	background: url(../estru/empresa_titulo.png) no-repeat top center;
+	margin: 50px 0px 0px 0px;
+	text-align: center;
+	font-size: 21px;
+	box-sizing: border-box;
+	padding: 10px 0px 0px 33px;
+	color: #663333;
+}
+
+section#empresa article.quem_somos {
+	width: 642px;
+	height: 264px;
+	background: url(../estru/bg_quem_somos.png) no-repeat top center;
+	float: right;
+	margin:80px 0px 0px 0px;
+	
+}
+
+section#empresa article.quem_somos h2 {
+	font-size: 19px;
+	/*color: #B3A939;*/
+	color: #E0B236;
+	margin: -28px 0px 0px 20px;
+}
+
+section#empresa article.quem_somos p {
+	font-size: 14px;
+	color: #663333;
+	padding: 37px 20px 20px 20px;
+	line-height: 22px;	
+}
+section#empresa article.quem_somos p:first-letter {
+	font-size: 20px;
+}
+
+section#empresa img[alt="icone_empresa1"] {
+	margin: 70px 0px 0px 0px;
+	position: relative;
+	left: 50px;
+}
+
+
+/*--*/
+
+section#empresa article.nossa_missao {
+	width: 642px;
+	height: 264px;
+	background: url(../estru/bg_quem_somos2.png) no-repeat top center;
+	float: left;
+	margin: 80px 0px 0px 0px;
+	
+}
+
+section#empresa article.nossa_missao h2 {
+	font-size: 19px;
+	/*color: #B3A939;*/
+	color: #E0B236;
+	margin: -28px 0px 0px 20px;
+}
+
+section#empresa article.nossa_missao p {
+	font-size: 14px;
+	color: #663333;
+	padding: 37px 20px 20px 20px;
+	line-height: 22px;
+	
+}
+section#empresa article.nossa_missao p:first-letter {
+	font-size: 20px;
+}
+
+section#empresa img[alt="icone_empresa2"] {
+	margin: 110px 0px 0px 60px;
+	position: relative;
+}
+
+/*-------------------------- AMBIENTES ---------------------------------*/
+
+section#ambientes {
+	width: 1000px;
+	height: auto;
+	margin: 0px auto 80px auto;
+}
+
+section#ambientes  a {
+	text-decoration: none;
+}
+section#ambientes:after {/*Hack*/
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+section#ambientes h1 {
+	width: 995px;
+	height: 48px;
+	margin: 0px auto 0px auto;
+	background: url(../estru/empresa_titulo.png) no-repeat top center;
+	margin: 50px 0px 0px 0px;
+	text-align: center;
+	font-size: 21px;
+	box-sizing: border-box;
+	padding: 10px 0px 0px 33px;
+	color: #663333;
+}
+section#ambientes .ambientes_quadros_es {
+	width: 475px;
+	height: 235px;
+	margin: 50px 0px 0px 23px;
+	float: left;
+	background: url(../estru/bg_ambientes.png) no-repeat top right;
+}
+
+section#ambientes .ambientes_quadros_dir {
+	width: 475px;
+	height: 235px;
+	margin: 50px 20px 0px 0px;
+	float: left;
+	background: url(../estru/bg_ambientes_dir.png) no-repeat top right;
+}
+
+section#ambientes .ambientes_quadros_es  h2 {
+	font-size: 19px;
+	color: #E0B236;
+	text-align: center;
+	margin: 10px 0px 0px 80px;
+}
+
+
+section#ambientes .ambientes_quadros_dir h2 {
+	font-size: 19px;
+	color: #E0B236;
+	text-align: center;
+	margin: 10px 80px 0px 0px;
+}
+
+section#ambientes .ambientes_quadros_es img {
+	margin: 10px 0px 0px 125px;
+}
+
+section#ambientes .ambientes_quadros_dir img {
+	margin: 10px 0px 0px 55px;
+}
+
+
+/*------------------------------- SERVIÇOS ------------------------------*/
+
+
+section#servicos {
+	width: 1000px;
+	height: auto;
+	margin: 0px auto 80px auto;
+}
+section#servicos:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+section#servicos img {
+	margin: 60px 0px 0px 35px;
+}
+section#servicos img[alt="Serviço 2"] {
+	float: right;
+	margin: -50px 45px 0px 0px;
+}
+
+section#servicos p {
+	font-size: 14px;
+	color: #E0B236;
+	padding: 0px 20px 20px 40px;
+	line-height: 22px;
+	box-sizing: border-box;
+}
+/**/
+section#servicos h4 {
+	font-size: 23px;
+	color: #663333;
+	background:url(../estru/bg_visto.png) no-repeat left transparent;
+	padding: 0px 0px 0px 30px;
+}
+
+section#servicos h1 {
+	width: 995px;
+	height: 48px;
+	margin: 0px auto 0px auto;
+	background: url(../estru/empresa_titulo.png) no-repeat top center;
+	margin: 50px 0px 0px 0px;
+	text-align: center;
+	font-size: 21px;
+	box-sizing: border-box;
+	padding: 10px 0px 0px 33px;
+	color: #663333;
+}
+
+article.montagem {
+	width: 500px;
+	float: right;
+	margin: 60px 160px 0px 0px;
+}
+
+article.projetos {
+	width: 550px;
+	float: right;
+	margin: 30px 20px 0px 0px;
+}
+
+article.atendimento {
+	width: 500px;
+	float: right;
+	margin: 60px 210px 0px 0px;
+}
+
+article.orcamentos {
+	width: 500px;
+	float: right;
+	margin: 60px 410px 0px 0px;
+}
+
+/*------------------------------ CONTATO ------------------------------*/
+
+section#contato {
+	width: 1000px;
+	height: auto;;
+	margin: 0px auto 80px auto;
+}
+section#contato h1 {
+	width: 995px;
+	height: 48px;
+	margin: 0px auto 0px auto;
+	background: url(../estru/empresa_titulo.png) no-repeat top center;
+	margin: 50px 0px 0px 0px;
+	text-align: center;
+	font-size: 21px;
+	box-sizing: border-box;
+	padding: 10px 0px 0px 33px;
+	color: #663333;
+}
+
+section#contato p {
+	width:650px;
+	font-size: 14px;
+	color: #E0B236;
+	padding: 0px 20px 20px 40px;
+	line-height: 22px;
+	box-sizing: border-box;
+	margin: 30px auto 0px auto;
+	text-align: center;
+}
+
+form {
+	width: 980px;
+	height: auto;
+	margin: 40px auto 0px auto;
+	
+}
+
+form label {
+	font-size: 19px;
+	color: #663333;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+
+	
+}
+
+form th {
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+}
+
+form input[type="text"] {
+	height: 32px;
+	display: inline;
+	margin: 3px 0px 0px 0px;
+	background-color: #F1F0EE;
+	border: none;
+}
+form input[type="text"]:focus {
+	box-shadow: 0 0 1px 1px #CCCCCC;
+	outline: none;
+}
+
+form textarea {
+	width: 410px;
+	height: 135px;
+	margin: -50px 0px 0px 8px;
+	background-color: #F1F0EE;
+	border: none;
+}
+
+form textarea:focus {
+	outline: none;
+	box-shadow: 0 0 1px 1px #CCCCCC;
+}
+
+form #mensagem {
+	margin: -20px 0px 0px 8px;
+}
+
+form input[type="submit"] {
+	margin: 10px 0px 0px -100px;
+	width: 85px;
+	height: 28px;
+	font-size: 17px;
+	background-color: #F1F0EE;
+	border: none;
+}
+
+form input[type="submit"]:hover {
+	box-shadow:  0px 3px #CCCCCC;
+}
+
+
+section#contato div.localizacao {
+	width: 980px;
+	height: auto;
+	margin: 30px auto 0px auto;
+}
+
+section#contato div.localizacao:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+section#contato div.localizacao h5 {
+	font-size: 17px;
+	color: #663333;
+	
+}
+
+section#contato div.localizacao p:nth-of-type(1) {
+	text-align: left;
+	margin: 15px 0px 0px 0px;
+	padding: 0px;
+	color: #663333;
+	font-size: 12px;
+	line-height: 15px;
+	
+}
+
+section#contato div.localizacao p:nth-of-type(2) {
+	text-align: left;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	color: #663333;
+	font-size: 12px;
+}
+
+section#contato div.mapa {
+	width: 400px;
+	height: 185px;
+	float: right;
+	margin: 0px 25px 0px 0px;
+}
+
+div.localizacao div.mapa iframe {
+	border: 5px solid #F1F0EE;
+	box-sizing: border-box;
+}
+
+section#contato img[alt="Icone Contato"] {
+	float: right;
+	position: relative;
+	right: 230px;
+	top: -30px;
+}
+
+#contato .sucesso a[title="voltar"]  {
+	color: #663333;
+	font-size: 17px;
+}
+
+#contato .error {
+	color: #663333;
+	font-size: 17px
+}
+
+#contato .sucesso {
+	color: #663333;
+	font-size: 17px;
+}
+
+
+/* AMBIENTES GALERIA */
+
+section#galeria {
+	width: 1000px;
+	height: auto;
+	margin: 0px auto 80px auto;
+}
+section#galeria a {
+	text-decoration: none;
+}
+section#galeria:after {/*Hack*/
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+
+section#galeria a:hover {
+	text-decoration: underline;
+	color: #663333;
+}
+
+section#galeria h1 {
+	width: 995px;
+	height: 48px;
+	margin: 0px auto 0px auto;
+	background: url(../estru/empresa_titulo.png) no-repeat top center;
+	margin: 50px 0px 0px 0px;
+	text-align: center;
+	font-size: 21px;
+	box-sizing: border-box;
+	padding: 10px 0px 0px 33px;
+	color: #663333;
+}
+
+section#galeria h3 {
+	width: 995px;
+	height: 48px;
+	margin: 0px auto 0px auto;
+	margin: 35px 0px 0px 0px;
+	text-align: center;
+	font-size: 22px;
+	box-sizing: border-box;
+	padding: 10px 0px 0px 33px;
+	color: #E0B236;
+}
+
+section#galeria figure {
+	width: 329px;
+	height: 197px;
+	float: left;
+	background: url(../estru/bg_galeria.png) no-repeat top center;
+	position: relative;
+	left: 6px;
+	margin: 20px 0px 0px 0px;
+	
+}
+
+section#galeria figure img {
+	width: 170px;
+	height: 128px;
+	position: relative;
+	left: 80px;
+	top: 35px;
+	overflow: hidden;
+}
+
+
+/*----------------------------- BANNER ---------------------------------*/
+
+section.banner {
+	width: 100%;
+	height: 400px;
+	margin: -48px 0px 0px 0px;
+	z-index: 10;
+}
+
+section.banner img {
+	width: 100%;
+}
+
+/*---------------------- LISTA PRODUTOS INDEX ------------------------*/
+
+.lista_produtos_servicos {
+	width: 1000px;
+	height: 230px;
+	margin: 40px auto 80px auto;
+}
+
+
+.lista_produtos_servicos ul.lista1 {
+	width: 405px;
+	height: 230px;
+	float: left;
+	margin: 0px 0px 0px 62px;
+	background: url(../estru/bg_linha_produtos.png) no-repeat top center;
+}
+
+.lista_produtos_servicos ul.lista2 {
+	width: 405px;
+	height: 210px;
+	float: left;
+	margin: 0px 0px 0px 62px;
+	background: url(../estru/bg_servicos_especializados.png) no-repeat top center;
+}
+
+.lista_produtos_servicos ul li.linha_produtos {
+	width: 130px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	margin: 30px 0px 0px 130px;
+	font-size: 20px;
+	list-style: none;
+	padding: 0px 0px 0px 30px;
+	background: url(../estru/bg_visto.png) no-repeat left;
+	color: #663333;
+}
+
+.lista_produtos_servicos ul li.linha_produtos a {
+	font-size: 20px;
+	list-style: none;
+	color: #663333;
+	text-decoration: none;
+}
+
+.lista_produtos_servicos ul li.servicos_especializados {
+	width: 280px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	margin: 30px 0px 0px 60px;
+	font-size: 20px;
+	list-style: none;
+	padding: 0px 0px 0px 30px;
+	background: url(../estru/bg_visto.png) no-repeat left;
+	color: #663333;
+}
+
+.lista_produtos_servicos ul li.servicos_especializados a {
+	font-size: 20px;
+	list-style: none;
+	color: #663333;
+	text-decoration: none;
+}
+
+/*--------------------------- FOOTER ------------------------------*/
+
+footer {
+	width: 100%;
+	height: 200px;
+	box-sizing: border-box;
+	background: url(../estru/bg_footer2.jpg) repeat-x top center;
+	margin: 0px auto 0px auto;
+}
+
+footer div.footer_conteudo {
+	width: 1000px;
+	height: 177px;
+	border: 1px solid transparent;
+	margin: 0px auto 0px auto;
+}
+
+footer div.footer_conteudo p:first-child{
+	margin: 30px 0px 5px 0px;
+	
+}
+
+footer div.footer_conteudo p {
+	color: #663333;
+	margin: 0px 0px 5px 0px;
+}
+
+footer div.footer_conteudo img[alt="Logo Footer"] {
+	float: right;
+	margin: -80px 0px 0px 0px;
+}
+
+footer div.footer_conteudo article {
+	width: 662px;
+	height: 50px;
+	margin: 25px auto 0px auto;
+	background: url(../estru/bg_hrsweb.png) no-repeat top center;
+	text-align: center;
+}
+
+footer div.footer_conteudo article img {
+	position: relative;
+	top: 13px;
+}
+
+footer div.footer_conteudo img[alt="Facebook"] {
+	float: right;
+	margin: -30px 70px 0px 0px;
+}
